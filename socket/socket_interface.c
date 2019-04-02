@@ -50,6 +50,7 @@ void main()
 	while(1)
 	{
 		printf("start\n");
+		memset(buf, 0, sizeof(buf));
 		len = recvfrom(socket_fd, buf, 1024, 0, NULL, NULL);
 
 		if(0 < len)
