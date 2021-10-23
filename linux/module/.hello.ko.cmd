@@ -1,0 +1,1 @@
+cmd_/home/liuyk/study/git/study/linux/module/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-45-generic/scripts/module-common.lds --build-id -o /home/liuyk/study/git/study/linux/module/hello.ko /home/liuyk/study/git/study/linux/module/hello.o /home/liuyk/study/git/study/linux/module/hello.mod.o

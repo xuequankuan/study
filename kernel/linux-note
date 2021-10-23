@@ -1,0 +1,3 @@
+1、写时复制(fork、exec)
+2、BCD码转换为数字	#define BCD_TO_BIN(val)	((val) = ((val) & 15) + ((val) >> 4) * 10)
+3、
